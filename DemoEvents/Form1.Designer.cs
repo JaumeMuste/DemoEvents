@@ -43,6 +43,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.buttonC = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -220,12 +221,28 @@
             this.buttonC.Tag = "C";
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button11.Location = new System.Drawing.Point(19, 303);
+            this.button11.Name = "button11";
+            this.button11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button11.Size = new System.Drawing.Size(68, 57);
+            this.button11.TabIndex = 16;
+            this.button11.Tag = "C";
+            this.button11.Text = "BORRAR";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 450);
+            this.ClientSize = new System.Drawing.Size(393, 356);
+            this.Controls.Add(this.button11);
             this.Controls.Add(this.buttonC);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -265,5 +282,6 @@
         private Button button9;
         private Button button10;
         private Button buttonC;
+        private Button button11;
     }
 }

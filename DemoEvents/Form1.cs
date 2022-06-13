@@ -51,5 +51,19 @@ namespace DemoEvents
                 }
             }
         }
+
+        private void buttonC_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Length != 0)
+            {
+                textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
+            //textBox1.Text.Substring(5,5)
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+        }
     }
 }
