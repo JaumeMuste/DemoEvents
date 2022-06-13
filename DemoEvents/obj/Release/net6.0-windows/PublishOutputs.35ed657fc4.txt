@@ -1,0 +1,5 @@
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\publish\DemoEvents.exe
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\publish\DemoEvents.dll
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\publish\DemoEvents.deps.json
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\publish\DemoEvents.runtimeconfig.json
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\publish\DemoEvents.pdb

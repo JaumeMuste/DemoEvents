@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\osx-x64\DemoEvents
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\osx-x64\DemoEvents.deps.json
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\osx-x64\DemoEvents.runtimeconfig.json
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\osx-x64\DemoEvents.dll
+C:\Users\User\source\repos\DemoEvents\DemoEvents\bin\Release\net6.0-windows\osx-x64\DemoEvents.pdb
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.Form1.resources
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.csproj.GenerateResource.cache
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.AssemblyInfo.cs
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.dll
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\refint\DemoEvents.dll
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.pdb
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\DemoEvents.genruntimeconfig.cache
+C:\Users\User\source\repos\DemoEvents\DemoEvents\obj\Release\net6.0-windows\osx-x64\ref\DemoEvents.dll
