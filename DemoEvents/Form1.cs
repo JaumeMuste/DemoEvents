@@ -1,3 +1,5 @@
+using Microsoft.VisualBasic;
+
 namespace DemoEvents
 {
     public partial class Form1 : Form
@@ -64,6 +66,14 @@ namespace DemoEvents
         private void button11_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (Information.IsNumeric(textBox1.Text))
+            {
+                textBox2.Text = (Convert.ToInt32(textBox1.Text) * 0.87).ToString();
+            }
         }
     }
 }

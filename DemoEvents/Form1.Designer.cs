@@ -44,11 +44,13 @@
             this.button10 = new System.Windows.Forms.Button();
             this.buttonC = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(136, 43);
+            this.textBox1.Location = new System.Drawing.Point(67, 49);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 23);
             this.textBox1.TabIndex = 0;
@@ -81,14 +83,14 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(261, 74);
+            this.textBox2.Location = new System.Drawing.Point(281, 212);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 23);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(261, 103);
+            this.textBox3.Location = new System.Drawing.Point(281, 257);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
             this.textBox3.TabIndex = 5;
@@ -100,7 +102,7 @@
             "1",
             "2",
             "3"});
-            this.comboBox1.Location = new System.Drawing.Point(240, 194);
+            this.comboBox1.Location = new System.Drawing.Point(260, 303);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 6;
@@ -227,7 +229,7 @@
             // 
             this.button11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button11.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button11.Location = new System.Drawing.Point(19, 303);
+            this.button11.Location = new System.Drawing.Point(19, 297);
             this.button11.Name = "button11";
             this.button11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.button11.Size = new System.Drawing.Size(68, 57);
@@ -237,11 +239,32 @@
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button12.Location = new System.Drawing.Point(190, 31);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(50, 50);
+            this.button12.TabIndex = 17;
+            this.button12.Tag = "";
+            this.button12.Text = "-->";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(261, 49);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 23);
+            this.textBox4.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(393, 356);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.buttonC);
             this.Controls.Add(this.button10);
@@ -283,5 +306,7 @@
         private Button button10;
         private Button buttonC;
         private Button button11;
+        private Button button12;
+        private TextBox textBox4;
     }
 }
